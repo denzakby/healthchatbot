@@ -108,6 +108,7 @@ if __name__ == '__main__':
         except sr.UnknownValueError:
             engine.setProperty('voice', voices[0].id)
             print("Voice not recognized, defaulting to Male Voice")
+        
 
     # Ana döngü
     final = 'true'

@@ -496,6 +496,493 @@
     "tag" : "Goodbye",
     "patterns" : ["Thank You, Goodbye","See you","Bye","goodbye"],
     "responses"  : ["Have a Nice day","Thank You to you too","Talk to you later!","GoodBye!"]
+  },
+  {
+    "tag": "Chronic Kidney Disease (CKD)",
+    "patterns": ["swelling in ankles", "fatigue", "nausea", "loss of appetite", "itchy skin", "shortness of breath"],
+    "responses": ["According to your symptoms you might have Chronic Kidney Disease (CKD)", "You have Chronic Kidney Disease (CKD)", "I suppose you have Chronic Kidney Disease (CKD)"]
+  },
+  {
+    "tag": "Liver Cirrhosis",
+    "patterns": ["yellowish skin", "swelling in abdomen", "weakness", "fatigue", "nausea", "loss of appetite"],
+    "responses": ["According to your symptoms you might have Liver Cirrhosis", "You have Liver Cirrhosis", "I suppose you have Liver Cirrhosis"]
+  },
+  {
+    "tag": "Parkinson's Disease",
+    "patterns": ["tremors", "slow movement", "stiff muscles", "impaired balance", "difficulty writing"],
+    "responses": ["According to your symptoms you might have Parkinson's Disease", "You have Parkinson's Disease", "I suppose you have Parkinson's Disease"]
+  },
+  {
+    "tag": "Multiple Sclerosis",
+    "patterns": ["numbness in limbs", "vision problems", "tingling sensation", "lack of coordination", "slurred speech"],
+    "responses": ["According to your symptoms you might have Multiple Sclerosis", "You have Multiple Sclerosis", "I suppose you have Multiple Sclerosis"]
+  },
+  {
+    "tag": "Thyroid Disorder",
+    "patterns": ["weight gain", "weight loss", "hair thinning", "fatigue", "sensitivity to cold", "irregular heartbeat"],
+    "responses": ["According to your symptoms you might have a Thyroid Disorder", "You have a Thyroid Disorder", "I suppose you have a Thyroid Disorder"]
+  },
+  {
+    "tag": "COVID-19",
+    "patterns": ["fever", "dry cough", "loss of smell", "loss of taste", "difficulty breathing", "fatigue"],
+    "responses": ["According to your symptoms you might have COVID-19", "You have COVID-19", "I suppose you have COVID-19"]
+  },
+  {
+    "tag": "Migraine",
+    "patterns": ["throbbing headache", "sensitivity to light", "nausea", "vomiting", "blurred vision"],
+    "responses": ["According to your symptoms you might have Migraine", "You have Migraine", "I suppose you have Migraine"]
+  },
+  {
+    "tag": "Skin Cancer",
+    "patterns": ["new mole", "changing mole", "bleeding mole", "itchy mole", "asymmetrical mole"],
+    "responses": ["According to your symptoms you might have Skin Cancer", "You have Skin Cancer", "I suppose you have Skin Cancer"]
+  },
+  {
+    "tag": "Eczema",
+    "patterns": ["dry skin", "itchy rash", "red patches", "cracked skin", "blisters"],
+    "responses": ["According to your symptoms you might have Eczema", "You have Eczema", "I suppose you have Eczema"]
+  },
+  {
+    "tag": "Osteoporosis",
+    "patterns": ["bone pain", "frequent fractures", "loss of height", "stooped posture", "back pain"],
+    "responses": ["According to your symptoms you might have Osteoporosis", "You have Osteoporosis", "I suppose you have Osteoporosis"]
+  },
+  {
+    "tag": "Psoriasis",
+    "patterns": ["scaly skin patches", "dry, cracked skin", "itching", "burning", "soreness"],
+    "responses": ["According to your symptoms you might have Psoriasis", "You have Psoriasis", "I suppose you have Psoriasis"]
+  },
+  {
+    "tag": "Leukemia",
+    "patterns": ["unusual bleeding", "frequent infections", "easy bruising", "pale skin", "tiredness"],
+    "responses": ["According to your symptoms you might have Leukemia", "You have Leukemia", "I suppose you have Leukemia"]
+  },
+  {
+    "tag": "Glaucoma",
+    "patterns": ["blurred vision", "halos around lights", "eye pain", "headache", "loss of peripheral vision"],
+    "responses": ["According to your symptoms you might have Glaucoma", "You have Glaucoma", "I suppose you have Glaucoma"]
+  },
+  {
+    "tag": "Celiac Disease",
+    "patterns": ["diarrhea", "bloating", "gas", "weight loss", "fatigue", "anemia"],
+    "responses": ["According to your symptoms you might have Celiac Disease", "You have Celiac Disease", "I suppose you have Celiac Disease"]
+  },
+  {
+    "tag": "Pancreatitis",
+    "patterns": ["upper abdominal pain", "nausea", "vomiting", "fever", "rapid pulse"],
+    "responses": ["According to your symptoms you might have Pancreatitis", "You have Pancreatitis", "I suppose you have Pancreatitis"]
+  },
+  {
+    "tag": "Lupus",
+    "patterns": ["fatigue", "fever", "joint pain", "rash", "shortness of breath", "chest pain"],
+    "responses": ["According to your symptoms you might have Lupus", "You have Lupus", "I suppose you have Lupus"]
+  },
+  {
+    "tag": "Fibromyalgia",
+    "patterns": ["widespread pain", "fatigue", "sleep disturbances", "memory problems", "mood issues"],
+    "responses": ["According to your symptoms you might have Fibromyalgia", "You have Fibromyalgia", "I suppose you have Fibromyalgia"]
+  },
+  {
+    "tag": "Epstein-Barr Virus (EBV)",
+    "patterns": ["fever", "swollen lymph nodes", "fatigue", "sore throat", "body aches"],
+    "responses": ["According to your symptoms you might have Epstein-Barr Virus", "You have Epstein-Barr Virus", "I suppose you have Epstein-Barr Virus"]
+  },
+  {
+    "tag": "Bell's Palsy",
+    "patterns": ["facial droop", "inability to close one eye", "facial weakness", "drooling", "loss of taste"],
+    "responses": ["According to your symptoms you might have Bell's Palsy", "You have Bell's Palsy", "I suppose you have Bell's Palsy"]
+  },
+  {
+    "tag": "Herniated Disc",
+    "patterns": ["back pain", "pain radiating down leg", "tingling", "numbness", "weakness in legs"],
+    "responses": ["According to your symptoms you might have a Herniated Disc", "You have a Herniated Disc", "I suppose you have a Herniated Disc"]
+  },
+  {
+    "tag": "Chronic Fatigue Syndrome",
+    "patterns": ["persistent fatigue", "joint pain", "unrefreshing sleep", "memory problems", "concentration issues"],
+    "responses": ["According to your symptoms you might have Chronic Fatigue Syndrome", "You have Chronic Fatigue Syndrome", "I suppose you have Chronic Fatigue Syndrome"]
+  },
+  {
+    "tag": "Anxiety Disorder",
+    "patterns": ["constant worry", "fear of unknown", "panic attacks", "shortness of breath", "restlessness"],
+    "responses": ["According to your symptoms you might have an Anxiety Disorder", "You have an Anxiety Disorder", "I suppose you have an Anxiety Disorder"]
+  },
+  {
+    "tag": "Dengue Fever",
+    "patterns": ["high fever", "severe headache", "pain behind the eyes", "joint pain", "rash", "bleeding gums"],
+    "responses": ["According to your symptoms, you might have Dengue Fever", "You have Dengue Fever", "I suppose you have Dengue Fever"]
+  },
+  {
+    "tag": "Hypothyroidism",
+    "patterns": ["fatigue", "weight gain", "cold intolerance", "depression", "dry skin", "hair thinning"],
+    "responses": ["According to your symptoms, you might have Hypothyroidism", "You have Hypothyroidism", "I suppose you have Hypothyroidism"]
+  },
+  {
+    "tag": "Hyperthyroidism",
+    "patterns": ["unexplained weight loss", "rapid heartbeat", "anxiety", "tremors", "increased sweating"],
+    "responses": ["According to your symptoms, you might have Hyperthyroidism", "You have Hyperthyroidism", "I suppose you have Hyperthyroidism"]
+  },
+  {
+    "tag": "Malaria",
+    "patterns": ["high fever", "shivering", "sweating", "nausea", "vomiting", "muscle pain"],
+    "responses": ["According to your symptoms, you might have Malaria", "You have Malaria", "I suppose you have Malaria"]
+  },
+  {
+    "tag": "Tuberculosis (TB)",
+    "patterns": ["persistent cough", "blood in cough", "chest pain", "weight loss", "night sweats", "fever"],
+    "responses": ["According to your symptoms, you might have Tuberculosis", "You have Tuberculosis", "I suppose you have Tuberculosis"]
+  },
+  {
+    "tag": "Polycystic Ovary Syndrome (PCOS)",
+    "patterns": ["irregular periods", "acne", "hair growth on face", "weight gain", "hair thinning", "difficulty conceiving"],
+    "responses": ["According to your symptoms, you might have PCOS", "You have PCOS", "I suppose you have PCOS"]
+  },
+  {
+    "tag": "Lyme Disease",
+    "patterns": ["bullseye rash", "fever", "headache", "joint pain", "muscle pain", "fatigue"],
+    "responses": ["According to your symptoms, you might have Lyme Disease", "You have Lyme Disease", "I suppose you have Lyme Disease"]
+  },
+  {
+    "tag": "Cystic Fibrosis",
+    "patterns": ["persistent cough", "wheezing", "frequent lung infections", "salty skin", "difficulty gaining weight"],
+    "responses": ["According to your symptoms, you might have Cystic Fibrosis", "You have Cystic Fibrosis", "I suppose you have Cystic Fibrosis"]
+  },
+  {
+    "tag": "Shingles",
+    "patterns": ["painful rash", "burning sensation", "blisters", "itching", "sensitivity to touch"],
+    "responses": ["According to your symptoms, you might have Shingles", "You have Shingles", "I suppose you have Shingles"]
+  },
+  {
+    "tag": "Hepatitis E",
+    "patterns": ["jaundice", "loss of appetite", "nausea", "vomiting", "abdominal pain", "dark urine"],
+    "responses": ["According to your symptoms, you might have Hepatitis E", "You have Hepatitis E", "I suppose you have Hepatitis E"]
+  },
+  {
+    "tag": "Chikungunya",
+    "patterns": ["high fever", "severe joint pain", "headache", "rash", "fatigue"],
+    "responses": ["According to your symptoms, you might have Chikungunya", "You have Chikungunya", "I suppose you have Chikungunya"]
+  },
+  {
+    "tag": "Yellow Fever",
+    "patterns": ["high fever", "jaundice", "muscle pain", "chills", "headache"],
+    "responses": ["According to your symptoms, you might have Yellow Fever", "You have Yellow Fever", "I suppose you have Yellow Fever"]
+  },
+  {
+    "tag": "Zika Virus",
+    "patterns": ["fever", "rash", "joint pain", "red eyes", "muscle pain"],
+    "responses": ["According to your symptoms, you might have Zika Virus", "You have Zika Virus", "I suppose you have Zika Virus"]
+  },
+  {
+    "tag": "Measles",
+    "patterns": ["fever", "rash", "runny nose", "red eyes", "cough"],
+    "responses": ["According to your symptoms, you might have Measles", "You have Measles", "I suppose you have Measles"]
+  },
+  {
+    "tag": "Rubella",
+    "patterns": ["rash", "fever", "swollen lymph nodes", "runny nose", "red eyes"],
+    "responses": ["According to your symptoms, you might have Rubella", "You have Rubella", "I suppose you have Rubella"]
+  },
+  {
+    "tag": "Diphtheria",
+    "patterns": ["sore throat", "fever", "swollen neck", "difficulty breathing"],
+    "responses": ["According to your symptoms, you might have Diphtheria", "You have Diphtheria", "I suppose you have Diphtheria"]
+  },
+  {
+    "tag": "Scarlet Fever",
+    "patterns": ["rash", "sore throat", "fever", "red lines on skin", "strawberry tongue"],
+    "responses": ["According to your symptoms, you might have Scarlet Fever", "You have Scarlet Fever", "I suppose you have Scarlet Fever"]
+  },
+  {
+    "tag": "Whooping Cough",
+    "patterns": ["persistent cough", "whooping sound while coughing", "runny nose", "fever"],
+    "responses": ["According to your symptoms, you might have Whooping Cough", "You have Whooping Cough", "I suppose you have Whooping Cough"]
+  },
+  {
+    "tag": "Tetanus",
+    "patterns": ["jaw stiffness", "muscle spasms", "difficulty swallowing", "stiff neck", "fever"],
+    "responses": ["According to your symptoms, you might have Tetanus", "You have Tetanus", "I suppose you have Tetanus"]
+  },
+  {
+    "tag": "Mumps",
+    "patterns": ["swollen salivary glands", "pain while chewing", "fever", "headache", "fatigue"],
+    "responses": ["According to your symptoms, you might have Mumps", "You have Mumps", "I suppose you have Mumps"]
+  },
+  {
+    "tag": "Cholera",
+    "patterns": ["watery diarrhea", "vomiting", "dehydration", "leg cramps", "low blood pressure"],
+    "responses": ["According to your symptoms, you might have Cholera", "You have Cholera", "I suppose you have Cholera"]
+  },
+  {
+    "tag": "Typhoid Fever",
+    "patterns": ["high fever", "abdominal pain", "weakness", "loss of appetite", "constipation"],
+    "responses": ["According to your symptoms, you might have Typhoid Fever", "You have Typhoid Fever", "I suppose you have Typhoid Fever"]
+  },
+  {
+    "tag": "Leprosy",
+    "patterns": ["skin lesions", "numbness in limbs", "muscle weakness", "enlarged nerves", "ulcers on feet"],
+    "responses": ["According to your symptoms, you might have Leprosy", "You have Leprosy", "I suppose you have Leprosy"]
+  },
+  {
+    "tag": "Chronic Sinusitis",
+    "patterns": ["nasal congestion", "facial pain", "postnasal drip", "loss of smell", "sinus headaches"],
+    "responses": ["According to your symptoms, you might have Chronic Sinusitis", "You have Chronic Sinusitis", "I suppose you have Chronic Sinusitis"]
+  },
+  {
+    "tag": "Tennis Elbow",
+    "patterns": ["elbow pain", "difficulty gripping", "pain during wrist movement", "forearm tenderness"],
+    "responses": ["According to your symptoms, you might have Tennis Elbow", "You have Tennis Elbow", "I suppose you have Tennis Elbow"]
+  },
+  {
+    "tag": "Chronic Pancreatitis",
+    "patterns": ["abdominal pain", "diarrhea", "unintended weight loss", "oily stools"],
+    "responses": ["According to your symptoms, you might have Chronic Pancreatitis", "You have Chronic Pancreatitis", "I suppose you have Chronic Pancreatitis"]
+  },
+  {
+    "tag": "Dupuytren's Contracture",
+    "patterns": ["stiff fingers", "difficulty straightening fingers", "lumps in palm"],
+    "responses": ["According to your symptoms, you might have Dupuytren's Contracture", "You have Dupuytren's Contracture", "I suppose you have Dupuytren's Contracture"]
+  },
+  {
+    "tag": "Chronic Fatigue Syndrome",
+    "patterns": ["extreme tiredness", "muscle pain", "brain fog", "unrefreshing sleep"],
+    "responses": ["According to your symptoms, you might have Chronic Fatigue Syndrome", "You have Chronic Fatigue Syndrome", "I suppose you have Chronic Fatigue Syndrome"]
+  },
+  {
+    "tag": "Trigeminal Neuralgia",
+    "patterns": ["facial pain", "electric shock sensations in face", "pain triggered by touch"],
+    "responses": ["According to your symptoms, you might have Trigeminal Neuralgia", "You have Trigeminal Neuralgia", "I suppose you have Trigeminal Neuralgia"]
+  },
+  {
+    "tag": "Cluster Headache",
+    "patterns": ["severe headache on one side", "red eyes during headache", "tearing eyes"],
+    "responses": ["According to your symptoms, you might have Cluster Headache", "You have Cluster Headache", "I suppose you have Cluster Headache"]
+  },
+  {
+    "tag": "Primary Biliary Cholangitis",
+    "patterns": ["fatigue", "itching skin", "yellowing of eyes", "upper right abdominal pain"],
+    "responses": ["According to your symptoms, you might have Primary Biliary Cholangitis", "You have Primary Biliary Cholangitis", "I suppose you have Primary Biliary Cholangitis"]
+  },
+  {
+    "tag": "Sjogren's Syndrome",
+    "patterns": ["dry mouth", "dry eyes", "joint pain", "swollen salivary glands"],
+    "responses": ["According to your symptoms, you might have Sjogren's Syndrome", "You have Sjogren's Syndrome", "I suppose you have Sjogren's Syndrome"]
+  },
+  {
+    "tag": "Achilles Tendinitis",
+    "patterns": ["heel pain", "swelling around Achilles tendon", "stiffness in ankle in the morning"],
+    "responses": ["According to your symptoms, you might have Achilles Tendinitis", "You have Achilles Tendinitis", "I suppose you have Achilles Tendinitis"]
+  },
+  {
+    "tag": "Pseudogout",
+    "patterns": ["sudden joint pain", "swelling", "joint stiffness", "knee pain"],
+    "responses": ["According to your symptoms, you might have Pseudogout", "You have Pseudogout", "I suppose you have Pseudogout"]
+  },
+  {
+    "tag": "Diverticulitis",
+    "patterns": ["abdominal pain on left side", "fever", "nausea", "change in bowel habits"],
+    "responses": ["According to your symptoms, you might have Diverticulitis", "You have Diverticulitis", "I suppose you have Diverticulitis"]
+  },
+  {
+    "tag": "Temporal Arteritis",
+    "patterns": ["scalp tenderness", "jaw pain while chewing", "vision changes", "headache on one side"],
+    "responses": ["According to your symptoms, you might have Temporal Arteritis", "You have Temporal Arteritis", "I suppose you have Temporal Arteritis"]
+  },
+  {
+    "tag": "Molar Pregnancy",
+    "patterns": ["vaginal bleeding during pregnancy", "severe nausea", "pelvic pressure", "rapid uterine growth"],
+    "responses": ["According to your symptoms, you might have Molar Pregnancy", "You have Molar Pregnancy", "I suppose you have Molar Pregnancy"]
+  },
+  {
+    "tag": "Costochondritis",
+    "patterns": ["chest pain", "pain worsens with movement", "tenderness near breastbone"],
+    "responses": ["According to your symptoms, you might have Costochondritis", "You have Costochondritis", "I suppose you have Costochondritis"]
+  },
+  {
+    "tag": "Peripheral Neuropathy",
+    "patterns": ["numbness in hands", "tingling in feet", "sharp stabbing pain", "loss of coordination"],
+    "responses": ["According to your symptoms, you might have Peripheral Neuropathy", "You have Peripheral Neuropathy", "I suppose you have Peripheral Neuropathy"]
+  },
+  {
+    "tag": "Tarsal Tunnel Syndrome",
+    "patterns": ["burning pain in foot", "tingling sensation in sole", "numbness in toes"],
+    "responses": ["According to your symptoms, you might have Tarsal Tunnel Syndrome", "You have Tarsal Tunnel Syndrome", "I suppose you have Tarsal Tunnel Syndrome"]
+  },
+  {
+    "tag": "Barrett's Esophagus",
+    "patterns": ["frequent heartburn", "difficulty swallowing", "chest pain", "vomiting blood"],
+    "responses": ["According to your symptoms, you might have Barrett's Esophagus", "You have Barrett's Esophagus", "I suppose you have Barrett's Esophagus"]
+  },
+  {
+    "tag": "Restless Leg Syndrome",
+    "patterns": ["urge to move legs", "tingling in legs", "worse symptoms at night", "difficulty sleeping due to leg discomfort"],
+    "responses": ["According to your symptoms, you might have Restless Leg Syndrome", "You have Restless Leg Syndrome", "I suppose you have Restless Leg Syndrome"]
+  },
+  {
+    "tag": "Raynaud's Phenomenon",
+    "patterns": ["fingers turning white in cold", "numbness in hands during stress", "pain in fingers in cold environments"],
+    "responses": ["According to your symptoms, you might have Raynaud's Phenomenon", "You have Raynaud's Phenomenon", "I suppose you have Raynaud's Phenomenon"]
+  },
+  {
+    "tag": "Endometriosis",
+    "patterns": ["painful periods", "pelvic pain", "pain during intercourse", "infertility issues"],
+    "responses": ["According to your symptoms, you might have Endometriosis", "You have Endometriosis", "I suppose you have Endometriosis"]
+  },
+  {
+    "tag": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "patterns": ["shortness of breath", "wheezing", "chronic cough", "frequent respiratory infections", "chest tightness"],
+    "responses": ["According to your symptoms, you might have Chronic Obstructive Pulmonary Disease (COPD)", "You have Chronic Obstructive Pulmonary Disease (COPD)", "I suppose you have Chronic Obstructive Pulmonary Disease (COPD)"]
+  },
+  {
+    "tag": "Irritable Bladder Syndrome",
+    "patterns": ["frequent urination", "urgency to urinate", "discomfort in bladder", "difficulty holding urine"],
+    "responses": ["According to your symptoms, you might have Irritable Bladder Syndrome", "You have Irritable Bladder Syndrome", "I suppose you have Irritable Bladder Syndrome"]
+  },
+  {
+    "tag": "Hashimoto's Thyroiditis",
+    "patterns": ["weight gain", "cold sensitivity", "hair thinning", "constipation", "depression", "fatigue"],
+    "responses": ["According to your symptoms, you might have Hashimoto's Thyroiditis", "You have Hashimoto's Thyroiditis", "I suppose you have Hashimoto's Thyroiditis"]
+  },
+  {
+    "tag": "Crohn's Disease",
+    "patterns": ["abdominal pain", "diarrhea", "weight loss", "blood in stool", "persistent fatigue"],
+    "responses": ["According to your symptoms, you might have Crohn's Disease", "You have Crohn's Disease", "I suppose you have Crohn's Disease"]
+  },
+  {
+    "tag": "Lyme Disease",
+    "patterns": ["bullseye rash", "fever", "headache", "joint pain", "muscle pain", "fatigue"],
+    "responses": ["According to your symptoms, you might have Lyme Disease", "You have Lyme Disease", "I suppose you have Lyme Disease"]
+  },
+  {
+    "tag": "Psoriatic Arthritis",
+    "patterns": ["joint pain", "stiffness", "swelling", "scaly patches on skin", "fatigue"],
+    "responses": ["According to your symptoms, you might have Psoriatic Arthritis", "You have Psoriatic Arthritis", "I suppose you have Psoriatic Arthritis"]
+  },
+  {
+    "tag": "Sleep Paralysis",
+    "patterns": ["unable to move upon waking", "sense of pressure on chest", "hallucinations", "fear during sleep"],
+    "responses": ["According to your symptoms, you might have Sleep Paralysis", "You have Sleep Paralysis", "I suppose you have Sleep Paralysis"]
+  },
+  {
+    "tag": "Peripheral Artery Disease",
+    "patterns": ["leg pain during walking", "cold feet", "numbness in legs", "slow-healing sores"],
+    "responses": ["According to your symptoms, you might have Peripheral Artery Disease", "You have Peripheral Artery Disease", "I suppose you have Peripheral Artery Disease"]
+  },
+  {
+    "tag": "Ehlers-Danlos Syndrome",
+    "patterns": ["joint hypermobility", "fragile skin", "easy bruising", "chronic pain"],
+    "responses": ["According to your symptoms, you might have Ehlers-Danlos Syndrome", "You have Ehlers-Danlos Syndrome", "I suppose you have Ehlers-Danlos Syndrome"]
+  },
+  {
+    "tag": "Narcolepsy",
+    "patterns": ["sudden sleep attacks", "daytime sleepiness", "sleep paralysis", "hallucinations", "cataplexy"],
+    "responses": ["According to your symptoms, you might have Narcolepsy", "You have Narcolepsy", "I suppose you have Narcolepsy"]
+  },
+  {
+    "tag": "Cystic Fibrosis",
+    "patterns": ["persistent cough", "frequent lung infections", "salty skin", "difficulty gaining weight"],
+    "responses": ["According to your symptoms, you might have Cystic Fibrosis", "You have Cystic Fibrosis", "I suppose you have Cystic Fibrosis"]
+  },
+  {
+    "tag": "Hyperparathyroidism",
+    "patterns": ["bone pain", "frequent urination", "weakness", "fatigue", "kidney stones"],
+    "responses": ["According to your symptoms, you might have Hyperparathyroidism", "You have Hyperparathyroidism", "I suppose you have Hyperparathyroidism"]
+  },
+  {
+    "tag": "Marfan Syndrome",
+    "patterns": ["tall stature", "long fingers", "heart problems", "joint pain"],
+    "responses": ["According to your symptoms, you might have Marfan Syndrome", "You have Marfan Syndrome", "I suppose you have Marfan Syndrome"]
+  },
+  {
+    "tag": "Bell's Palsy",
+    "patterns": ["facial drooping", "inability to close one eye", "difficulty smiling", "loss of taste"],
+    "responses": ["According to your symptoms, you might have Bell's Palsy", "You have Bell's Palsy", "I suppose you have Bell's Palsy"]
+  },
+  {
+    "tag": "Endometriosis",
+    "patterns": ["painful periods", "pelvic pain", "difficulty conceiving", "fatigue", "pain during intercourse"],
+    "responses": ["According to your symptoms, you might have Endometriosis", "You have Endometriosis", "I suppose you have Endometriosis"]
+  },
+  {
+    "tag": "Chronic Sinusitis",
+    "patterns": ["nasal congestion", "sinus headaches", "loss of smell", "facial pain", "postnasal drip"],
+    "responses": ["According to your symptoms, you might have Chronic Sinusitis", "You have Chronic Sinusitis", "I suppose you have Chronic Sinusitis"]
+  },
+  {
+    "tag": "Wilson's Disease",
+    "patterns": ["yellowing of eyes", "uncontrolled movements", "difficulty speaking", "swollen abdomen"],
+    "responses": ["According to your symptoms, you might have Wilson's Disease", "You have Wilson's Disease", "I suppose you have Wilson's Disease"]
+  },
+  {
+    "tag": "Restless Leg Syndrome",
+    "patterns": ["urge to move legs", "discomfort in legs at night", "difficulty sleeping", "tingling in legs"],
+    "responses": ["According to your symptoms, you might have Restless Leg Syndrome", "You have Restless Leg Syndrome", "I suppose you have Restless Leg Syndrome"]
+  },
+  {
+    "tag": "Ankylosing Spondylitis",
+    "patterns": ["back pain", "stiffness in the morning", "reduced spinal mobility", "chronic fatigue"],
+    "responses": ["According to your symptoms, you might have Ankylosing Spondylitis", "You have Ankylosing Spondylitis", "I suppose you have Ankylosing Spondylitis"]
+  },
+  {
+    "tag": "Panic Disorder",
+    "patterns": ["sudden intense fear", "heart palpitations", "sweating", "shortness of breath"],
+    "responses": ["According to your symptoms, you might have Panic Disorder", "You have Panic Disorder", "I suppose you have Panic Disorder"]
+  },
+  {
+    "tag": "Schizophrenia",
+    "patterns": ["delusions", "hallucinations", "disorganized speech", "social withdrawal"],
+    "responses": ["According to your symptoms, you might have Schizophrenia", "You have Schizophrenia", "I suppose you have Schizophrenia"]
+  },
+  {
+    "tag": "Rheumatoid Arthritis",
+    "patterns": ["joint pain", "morning stiffness", "swollen joints", "fatigue"],
+    "responses": ["According to your symptoms, you might have Rheumatoid Arthritis", "You have Rheumatoid Arthritis", "I suppose you have Rheumatoid Arthritis"]
+  },
+  {
+    "tag": "Chronic Kidney Disease",
+    "patterns": ["frequent urination", "swelling in legs", "fatigue", "shortness of breath"],
+    "responses": ["According to your symptoms, you might have Chronic Kidney Disease", "You have Chronic Kidney Disease", "I suppose you have Chronic Kidney Disease"]
+  },
+  {
+    "tag": "Temporal Arteritis",
+    "patterns": ["scalp tenderness", "jaw pain while chewing", "vision changes", "headache on one side"],
+    "responses": ["According to your symptoms, you might have Temporal Arteritis", "You have Temporal Arteritis", "I suppose you have Temporal Arteritis"]
+  },
+  {
+    "tag": "Costochondritis",
+    "patterns": ["chest pain", "pain worsens with movement", "tenderness near breastbone"],
+    "responses": ["According to your symptoms, you might have Costochondritis", "You have Costochondritis", "I suppose you have Costochondritis"]
+  },
+  {
+    "tag": "Barrett's Esophagus",
+    "patterns": ["frequent heartburn", "difficulty swallowing", "chest pain", "vomiting blood"],
+    "responses": ["According to your symptoms, you might have Barrett's Esophagus", "You have Barrett's Esophagus", "I suppose you have Barrett's Esophagus"]
+  },
+  {
+    "tag": "Diverticulitis",
+    "patterns": ["abdominal pain on left side", "fever", "nausea", "change in bowel habits"],
+    "responses": ["According to your symptoms, you might have Diverticulitis", "You have Diverticulitis", "I suppose you have Diverticulitis"]
+  },
+  {
+    "tag": "Hyperthyroidism",
+    "patterns": ["unexplained weight loss", "rapid heartbeat", "sensitivity to heat", "nervousness", "tremors"],
+    "responses": ["According to your symptoms, you might have Hyperthyroidism", "You have Hyperthyroidism", "I suppose you have Hyperthyroidism"]
+  },
+  {
+    "tag": "Hypothyroidism",
+    "patterns": ["unexplained weight gain", "cold intolerance", "fatigue", "constipation", "dry skin"],
+    "responses": ["According to your symptoms, you might have Hypothyroidism", "You have Hypothyroidism", "I suppose you have Hypothyroidism"]
+  },
+  {
+    "tag": "Asthma",
+    "patterns": ["wheezing", "shortness of breath", "coughing", "chest tightness", "difficulty breathing"],
+    "responses": ["According to your symptoms, you might have Asthma", "You have Asthma", "I suppose you have Asthma"]
+  },
+  {
+    "tag": "Gastroesophageal Reflux Disease (GERD)",
+    "patterns": ["heartburn", "regurgitation", "chest pain", "difficulty swallowing", "sour taste"],
+    "responses": ["According to your symptoms, you might have Gastroesophageal Reflux Disease (GERD)", "You have Gastroesophageal Reflux Disease (GERD)", "I suppose you have Gastroesophageal Reflux Disease (GERD)"]
   }
+
+
 ]
 }
